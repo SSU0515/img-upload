@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  text-align: center;
+}
+
+.drop-box {
+  width: 1000px;
+  height: 300px;
+  border: 2px dashed #ff7e7e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.drop-box h3 {
+  color: #ff7e7e;
+}
+
+.upload-imgs {
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.upload-imgs img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+}
